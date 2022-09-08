@@ -1,0 +1,59 @@
+{
+    "client":"Thunder Client",
+    "collectionName":"tweteroo",
+    "dateExported":"2022-09-08T21:37:06.614Z",
+    "version":"1.1","folders":[],
+    "requests":[
+        {
+            "_id":"7e4b6e88-6773-413a-a21c-ffac610796f5",
+            "colId":"920e8b3b-89e5-4184-9fc9-bc15466b767f",
+            "containerId":""
+            ,"name":"new-user",
+            "url":"http://localhost:5000/sign-up",
+            "method":"POST",
+            "sortNum":10000,
+            "created":"2022-09-08T21:08:05.278Z",
+            "modified":"2022-09-08T21:19:15.193Z",
+            "headers":[],
+            "params":[],
+            "body":{
+                "type":"json",
+                "raw": "{\n    \"username\": \"Devnilson\",\n    \"avatar\": \"https://sempreupdate.com.br/wp-content/uploads/2019/02/qual-a-diferenca-entre-programador-e-desenvolvedor.jpg\"\n}",
+                "form":[]
+            },
+            "tests":[]
+        },
+        {
+            "_id":"c2a53aa6-d85e-4d04-a298-360cc634342f",
+            "colId":"920e8b3b-89e5-4184-9fc9-bc15466b767f",
+            "containerId":"",
+            "name":"new-tweet",
+            "url":"http://localhost:5000/tweets",
+            "method":"POST","sortNum":20000,
+            "created":"2022-09-08T21:20:39.634Z",
+            "modified":"2022-09-08T21:27:39.301Z",
+            "headers":[],
+            "params":[],
+            "body":{
+                "type":"json",
+                "raw":"{\n    \"username\": \"Devnilson\",\n    \"tweet\": \"Hello World\"\n}",
+                "form":[]
+            },
+            "tests":[]
+        },
+        {
+            "_id":"2e2920a1-211d-458a-bd8e-54f689dc7bc1",
+            "colId":"920e8b3b-89e5-4184-9fc9-bc15466b767f",
+            "containerId":"",
+            "name":"get-tweets",
+            "url":"http://localhost:5000/tweets",
+            "method":"GET",
+            "sortNum":30000,
+            "created":"2022-09-08T21:28:33.687Z",
+            "modified":"2022-09-08T21:28:53.443Z",
+            "headers":[],
+            "params":[],
+            "tests":[]
+        }
+    ]
+}

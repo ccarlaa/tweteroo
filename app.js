@@ -34,8 +34,12 @@ app.get('/tweets', (req, res) => {
             reverse.push(tweets[tweets.length -1 - i])
         }
     }
-    console.log(reverse)
     res.status(201).send(reverse)
 })
 
-app.listen(5000)
+const port = 5000;
+app.listen(port, () => {
+    console.log(`|-----------------------------------|`)
+    console.log(`| Running at http://localhost:${port}  |`)
+    console.log(`|-----------------------------------|`)
+})
