@@ -1,4 +1,4 @@
-  ## ⚡️ Tweteroo
+  ## ⚡️ Twiteroo
 
 ## 📝 Sobre
 
